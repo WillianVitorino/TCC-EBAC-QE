@@ -1,0 +1,28 @@
+{
+  "name": "tcc-ebac-qe",
+  "version": "1.0.0",
+  "description": "Exercício final da Formação de Engenheiro de Qualidade de Software Ebac",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --browser chrome",
+    "cyreport:generate": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillianVitorino/TCC-EBAC-QE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillianVitorino/TCC-EBAC-QE/issues"
+  },
+  "homepage": "https://github.com/WillianVitorino/TCC-EBAC-QE#readme",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-multi-reporters": "^1.6.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
