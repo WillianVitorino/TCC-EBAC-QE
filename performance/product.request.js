@@ -1,10 +1,10 @@
 import { check } from 'k6'
 import http from 'k6/http'
-import Utils from '../../../support/utils/utils'
+import Utils from '../automation/support/utils/utils'
 
-export default class Client{
+export default class Product{
     list(token){
-        let response =  http.get(`${Utils.getBaseUrl}custumers`, {
+        let response =  http.get(`${Utils.getBaseUrl}products`, {
             headers: {
                 Authorizarion: `Bearer ${token}`
             }

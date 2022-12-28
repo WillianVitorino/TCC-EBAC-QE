@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "cy:run": "cypress run --browser chrome",
-        "cyreport:generate": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/index.json",
-        "jest:run": "jest ../cypress/integration/api/",
+        "cyreport:generate": "mochawesome-merge automation/report/mochawesome-report/*.json > automation/report/index.json",
+        "jest:run": "jest ../automation/integration/api/",
         "wdio": "wdio run wdio.conf.js"
     },
     "repository": {

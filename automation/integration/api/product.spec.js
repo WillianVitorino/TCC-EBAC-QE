@@ -1,5 +1,5 @@
 const req = require('supertest');
-const { getAccessToken } = require('../suport/request');
+const { getAccessToken } = require('../../support/api/request');
 const API_URL = process.env.API_URL
 
 describe('Flow Products', () => {
