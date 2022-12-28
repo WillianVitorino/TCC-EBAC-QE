@@ -1,10 +1,10 @@
 import http from 'k6/http';
 import { group, sleep } from 'k6';
-import Login from '../../../support/api/performance/login.request';
-import data from '../../../fixtures/usuarios.json'
-import User from '../../../support/api/performance/user.request';
-import Product from '../../../support/api/performance/product.request';
-import Client from '../../../support/api/performance/client.request';
+import Login from './login.request';
+import data from '../automation/fixtures/usuarios.json';
+import User from './user.request';
+import Product from './product.request';
+import Client from './client.request';
 
 export const options = {
   stages: [

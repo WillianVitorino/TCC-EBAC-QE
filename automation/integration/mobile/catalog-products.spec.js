@@ -1,4 +1,4 @@
-const homeScreen = require("../../support/screen/home.screen");
+const homeScreen = require('../../support/screen/home.screen');
 const loginScreen = require("../../support/screen/login.screen");
 const storeScreen = require("../../support/screen/store.screen");
 const newProductScreen = require("../../support/screen/new-product.screen");
